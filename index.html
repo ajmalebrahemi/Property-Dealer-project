@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap 5 CSS link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- card carousel links -->
+
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="test.css" />
+
+    <!-- end of card carousel links -->
+
+    <link rel="stylesheet" href="style.css" />
+    <title>رهنمای آنلاین</title>
+  </head>
+  <body class="bg-dark">
+    <!-- navbar section -->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            id="logo"
+            src="icons&logo/logo-removebg-preview.png"
+            width="50px"
+            height="50px"
+            alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasDarkNavbar"
+          aria-controls="offcanvasDarkNavbar"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end text-bg-dark"
+          tabindex="-1"
+          id="offcanvasDarkNavbar"
+          aria-labelledby="offcanvasDarkNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+              شهر سازان
+            </h5>
+            <button
+              id="closeBtn"
+              type="button"
+              class="btn-close btn-close-white"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  style="color: red"
+                  class="nav-link active mx-lg-2"
+                  aria-current="page"
+                  href="#"
+                  >خانه</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="buyMenue" class="nav-link mx-lg-2" href="#buyBorder"
+                  >گروی</a
+                >
+              </li>
+              <li class="nav-item">
+                <a id="buyMenue" class="nav-link mx-lg-2" href="#">فروش</a>
+              </li>
+              <li class="nav-item">
+                <a id="buyMenue" class="nav-link mx-lg-2" href="#">کرایه</a>
+              </li>
+              <li class="nav-item">
+                <a id="buyMenue" class="nav-link mx-lg-2" href="#">کمک</a>
+              </li>
+              <li class="nav-item">
+                <a id="buyMenue" class="nav-link mx-lg-2" href="#">در باره</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav section -->
+
+    <!-- slidshow section -->
+    <div class="container2 bg-dark">
+      <video autoplay loop muted plays-inline class="bg-dark background-clip">
+        <source src="Video/videoplayback.mp4" type="video/mp4" />
+      </video>
+
+      <h1 class="headingOne">شهر سازان</h1>
+      <p class="slidParagraph">
+        اولین رهنمای آنلاین در سطح افغانستان <br />
+        با تجربه کاری ۱۰ ساله و بهترین خدمات به مشتریان<br />
+        همیشه در خدمت شما<br />
+      </p>
+    </div>
+
+    <!-- cards section -->
+
+    <!-- <section class="bg-dark">
+      <div id="container" class="container mt-lg-5 mt-sm-5 mb-4">
+        <h1 id="buy"><a id="buyBorder" href="#" class="text-light">خرید</a></h1>
+        <div class="row gap-sm-3 mb-lg-3 mb-sm-3 pt-3">
+          <div class="col-lg">
+            <div class="card text-bg-dark">
+              <img src="images/imgOne.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">#ID1</h5>
+                <p class="card-text">
+                  در بهترین موقیعت شهر کابل واقع شهر نو کوچه گل فروشی
+                </p>
+                <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card text-bg-dark">
+              <img src="images/imgTwo.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">#ID2</h5>
+                <p class="card-text">
+                  در بهترین موقیعت شهر کابل واقع شهر نو کوچه گل فروشی
+                </p>
+                <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card text-bg-dark">
+              <img
+                id="imgCards"
+                src="images/imgThree.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">#ID3</h5>
+                <p class="card-text">
+                  در بهترین موقیعت شهر کابل واقع شهر نو کوچه گل فروشی
+                </p>
+                <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row gap-sm-3">
+          <div class="col-lg">
+            <div class="card text-bg-dark">
+              <img src="images/imgFure.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">#ID4</h5>
+                <p class="card-text">
+                  در بهترین موقیعت شهر کابل واقع شهر نو کوچه گل فروشی
+                </p>
+                <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card text-bg-dark">
+              <img src="images/imgFive.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">#ID5</h5>
+                <p class="card-text">
+                  در بهترین موقیعت شهر کابل واقع شهر نو کوچه گل فروشی
+                </p>
+                <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg">
+            <div class="card text-bg-dark">
+              <img src="images/imgSix.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">#ID6</h5>
+                <p class="card-text">
+                  در بهترین موقیعت شهر کابل واقع شهر نو کوچه گل فروشی
+                </p>
+                <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <hr />
+    <div class="container-fluid px-3 px-sm-5 my-5 text-center">
+      <h4 class="mb-5 font-weight-bold text-danger">آپارتمان ها</h4>
+      <div class="owl-carousel owl-theme">
+        <div class="item first prev">
+          <div class="card border-0 py-3 px-4">
+            <div class="row justify-content-center">
+              <img
+                src="images/imgOne.jpeg"
+                class="img-fluid card-img-top mb-4 mt-3"
+              />
+            </div>
+            <h6 class="mb-3 mt-2">
+              <span class="text-danger">کرایی </span><br />
+              شهر نو
+            </h6>
+            <p class="content mb-5 mx-2">
+              دارای دو اتاق، آشپزخانه اوپن، هال بزرگ، با تمام وسایل در منزل ۴ در
+              بهترین موقیعت
+            </p>
+            <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+          </div>
+        </div>
+        <div class="item show">
+          <div class="card border-0 py-3 px-4">
+            <div class="row justify-content-center">
+              <img
+                src="images/imgTwo.jpg"
+                class="img-fluid card-img-top mb-4 mt-3"
+              />
+            </div>
+            <h6 class="mb-3 mt-2">
+              <span class="text-danger">فروشی </span><br />
+              بره کی
+            </h6>
+            <p class="content mb-5 mx-2">
+              دارای چهار اتاق، آشپزخانه اوپن، هال بزرگ، با تمام وسایل در منزل ۲
+              در بهترین موقیعت کابل
+            </p>
+            <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+          </div>
+        </div>
+        <div class="item next">
+          <div class="card border-0 py-3 px-4">
+            <div class="row justify-content-center">
+              <img
+                src="images/imgThree.jpg"
+                class="img-fluid card-img-top mb-4 mt-3"
+              />
+            </div>
+            <h6 class="mb-3 mt-2">
+              <span class="text-danger">گروی </span><br />
+              پروژه تایمنی
+            </h6>
+            <p class="content mb-5 mx-2">
+              دارای سه اتاق، آشپزخانه اوپن، هال بزرگ، در منزل ۵ در بهترین موقیعت
+              کابل
+            </p>
+            <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+          </div>
+        </div>
+        <div class="item last">
+          <div class="card border-0 py-3 px-4">
+            <div class="row justify-content-center">
+              <img
+                src="images/imgFure.jpg"
+                class="img-fluid card-img-top mb-4 mt-3"
+              />
+            </div>
+            <h6 class="mb-3 mt-2">
+              <span class="text-danger">گروی </span><br />
+              کارته چهار
+            </h6>
+            <p class="content mb-5 mx-2">
+              دارای شش اتاق، آشپزخانه اوپن، هال بزرگ، در منزل ۷ در بهترین موقیعت
+              کابل
+            </p>
+            <a href="#" class="btn btn-dark btn-outline-info">بیشتر</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <!-- end Testimonials Carousel -->
+    <footer class="main bg-black">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-lg col-sm-12 text-bg-gray">
+            <ul>
+              <li class="lione text-danger">ما را دنبال کنید</li>
+              <li>
+                <a id="aone" href="https://www.facebook.com/">Facebook</a>
+              </li>
+              <li><a id="aone" href="https://www.youtube.com">YouTube</a></li>
+              <li><a id="aone" href="www.whatsapp.com">Whatsapp</a></li>
+              <li><a id="aone" href="www.instagram.com">Instagram</a></li>
+              <li><a id="aone" href="www.twitter.com">Twitter</a></li>
+            </ul>
+          </div>
+          <div class="col-lg col-3 col-sm-6 text-bg-gray" id="three">
+            <ul id="footer">
+              <li class="lione text-danger">مینیو</li>
+              <li><a id="aone" href="#">خانه</a></li>
+              <li><a id="aone" href="#">خرید</a></li>
+              <li><a id="aone" href="#">فروش</a></li>
+              <li>
+                <a id="aone" class="link-underline-opacity-0-hover" href="#"
+                  >کرایه</a
+                >
+              </li>
+              <li><a id="aone" href="#">کمک</a></li>
+              <li><a id="aone" href="#">در باره</a></li>
+              <img id="github" src="icons/facebook.svg" alt="" />
+              <img id="github" src="icons/X.svg" alt="" />
+              <img id="github" src="icons/github.svg" alt="" /><br />
+              <p class="text-danger">@All Right Reserved.</p>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap 5 JS link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- other javascript links -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="test.js"></script>
+
+    <!-- end of other javascript links -->
+    <script src="script.js"></script>
+  </body>
+</html>
