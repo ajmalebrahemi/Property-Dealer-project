@@ -62,3 +62,10 @@ $(document).ready(function() {
     });
     
     });
+
+
+
+    function myOwn(name){
+        console.log('hello' +name);
+    }
+    myOwn('ajmal');
